@@ -33,12 +33,14 @@ body {
   padding: 2em;
   background-color: rgb(8, 143, 221);
   font-family:cursive;
+  font-size: x-large;
 }
 
 .seccion-productos {
   padding: 2em;
   background-color: rgb(8, 143, 221);
   font-family:cursive;
+  text-align: center;
 }
 
 
@@ -50,7 +52,7 @@ body {
 }
 
 .tarjeta-producto {
-  background-color: #5e60dd;
+  background-color: #ffffff;
   border: 3px solid #000000;
   padding: 1em;
   width: 250px;
