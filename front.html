@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Computadoras</title>
+  <link rel="stylesheet" href="front.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1 class="titulo">Tienda de Computadoras</h1>
+    <nav class="navegacion">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#carrito">Carrito</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="seccion-principal" id="inicio">
+      <h2>Bienvenido a la mejor tienda de tecnología</h2>
+      <p>Explora nuestras computadoras y accesorios al mejor precio.</p>
+    </section>
+
+    <section class="seccion-productos" id="productos">
+      <h2>Nuestros Productos</h2>
+      <div class="contenedor-productos">
+        <div class="tarjeta-producto">
+          <img src="laptop.jpg" alt="Computadora 1">
+          <h3 class="nombre-producto">Laptop Gamer 1500$</h3>
+          <p class="descripcion-producto">16GB RAM, RTX 3060, SSD 512GB</p>
+          <button class="boton-comprar" data-nombre="Laptop Gamer">Comprar</button>
+        </div>
+        <div class="tarjeta-producto">
+          <img src="escritorio.jpg" alt="Computadora 2">
+          <h3 class="nombre-producto">PC de Escritorio 2350$</h3>
+          <p class="descripcion-producto">Intel i5, 8GB RAM, HDD 1TB</p>
+          <button class="boton-comprar" data-nombre="PC de Escritorio">Comprar</button>
+        </div>
+        <div class="tarjeta-producto">
+            <img src="ssd.jpg" alt="">
+            <h3 class="nombre-producto">disco SSD 120$ </h3>
+            <P class=" descripcion-producto">SSD samsumng de 1TB</P>
+            <button class="boton-comprar" data-nombre="SSD"> Comprar</button>
+        </div>
+        <div class="tarjeta-producto">
+            <img src="grafica.jpg" alt="">
+            <h3 class="nombre-producto">RTX GEFORCE 5090 2500" </h3>
+            <P class=" descripcion-producto">24gb de VRAM</P>
+            <button class="boton-comprar" data-nombre="grafica"> Comprar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-carrito" id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul class="lista-carrito"></ul>
+    </section>
+  </main>
+
+  <footer class="pie-pagina" id="contacto">
+    <p>&copy; Juan Hermoza. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="front.js"></script>
+</body>
+</html>
